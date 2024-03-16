@@ -47,6 +47,7 @@ struct HomeView: View {
                 
                 HStack {
                     Text("Most Popular")
+                        .font(.system(size: 25))
                     Spacer()
                     Button {
                         
@@ -94,6 +95,7 @@ struct HomeView: View {
                 
                 HStack {
                     Text("Catagories")
+                        .font(.system(size: 25))
                     Spacer()
                     Button {
                         
@@ -132,6 +134,7 @@ struct HomeView: View {
                 }
                 HStack {
                     Text("Featured Producrts")
+                        .font(.system(size: 25))
                     Spacer()
                     Button {
                         

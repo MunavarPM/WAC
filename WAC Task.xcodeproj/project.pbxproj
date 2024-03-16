@@ -60,13 +60,10 @@
 		DB72DB472BA4C00700231CAC = {
 			isa = PBXGroup;
 			children = (
-				DBB854892BA5388300FE0CED /* DataController.swift */,
-				DBC579D72BA537CE007BA28D /* CategoryEntity+CoreDataClass.swift */,
-				DBC579D82BA537CE007BA28D /* CategoryEntity+CoreDataProperties.swift */,
-				DBC579D92BA537CE007BA28D /* BannerEntity+CoreDataClass.swift */,
-				DBC579DA2BA537CE007BA28D /* BannerEntity+CoreDataProperties.swift */,
-				DBC579DB2BA537CE007BA28D /* ProductEntity+CoreDataClass.swift */,
-				DBC579DC2BA537CE007BA28D /* ProductEntity+CoreDataProperties.swift */,
+				DBB854922BA56BDE00FE0CED /* Model */,
+				DBB8548E2BA56B4300FE0CED /* View */,
+				DBB8548F2BA56B5500FE0CED /* ViewModel */,
+				DBB854912BA56BA800FE0CED /* LocalStorage */,
 				DB72DB522BA4C00700231CAC /* WAC Task */,
 				DB72DB512BA4C00700231CAC /* Products */,
 			);
@@ -84,11 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				DB72DB532BA4C00700231CAC /* WAC_TaskApp.swift */,
-				DB72DB552BA4C00700231CAC /* ContentView.swift */,
-				DB72DB622BA4C9BD00231CAC /* HomeView.swift */,
-				DB72DB662BA4E57100231CAC /* Model.swift */,
-				DBB8548C2BA556FF00FE0CED /* ViewModel.swift */,
-				DB72DB642BA4CF6600231CAC /* TabBarView.swift */,
 				DB72DB682BA533EE00231CAC /* CoreData.xcdatamodeld */,
 				DB72DB572BA4C00A00231CAC /* Assets.xcassets */,
 				DB72DB592BA4C00A00231CAC /* WAC_Task.entitlements */,
@@ -103,6 +95,46 @@
 				DB72DB5B2BA4C00A00231CAC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBB8548E2BA56B4300FE0CED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB72DB552BA4C00700231CAC /* ContentView.swift */,
+				DB72DB622BA4C9BD00231CAC /* HomeView.swift */,
+				DB72DB642BA4CF6600231CAC /* TabBarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBB8548F2BA56B5500FE0CED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DBB8548C2BA556FF00FE0CED /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DBB854912BA56BA800FE0CED /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				DBC579D72BA537CE007BA28D /* CategoryEntity+CoreDataClass.swift */,
+				DBB854892BA5388300FE0CED /* DataController.swift */,
+				DBC579D82BA537CE007BA28D /* CategoryEntity+CoreDataProperties.swift */,
+				DBC579D92BA537CE007BA28D /* BannerEntity+CoreDataClass.swift */,
+				DBC579DA2BA537CE007BA28D /* BannerEntity+CoreDataProperties.swift */,
+				DBC579DB2BA537CE007BA28D /* ProductEntity+CoreDataClass.swift */,
+				DBC579DC2BA537CE007BA28D /* ProductEntity+CoreDataProperties.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		DBB854922BA56BDE00FE0CED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB72DB662BA4E57100231CAC /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
